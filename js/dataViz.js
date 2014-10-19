@@ -12,5 +12,4 @@ $.getJSON("http://data.ny.gov/resource/s22a-k4ev.json", function (data) {
         $(this).css("background", "#29A3A3");
         $("#flyout").text("");
     });
-
 });

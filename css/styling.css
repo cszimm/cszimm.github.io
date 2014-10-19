@@ -2,7 +2,7 @@ body {
 	font-family: arial;
 }
 h1 {
-	color: #00CC99;
+	color: #29A3A3;
 	text-align: center;
 }
 p#description {
@@ -14,8 +14,8 @@ p#description {
 
 .crappyBar {
     background:#29A3A3;
-    display:inline-block;
-    height:12px;
+    display:block;
+    height:30px;
     border-radius:1px;
     border: 1px solid #005C5C;
     margin-left:10px;
@@ -24,8 +24,9 @@ p#description {
     margin-bottom:20px;
     font-family:sans-serif;
     padding:10px;
-    border:1px solid #555;
-    border-radius:10px;
+}
+#textResults h2 {
+
 }
 #flyout {
     position: absolute;
