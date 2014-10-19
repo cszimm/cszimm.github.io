@@ -11,3 +11,26 @@ p#description {
 #chart {
 	border: 1px black solid;
 }
+
+.crappyBar {
+    background:#29A3A3;
+    display:inline-block;
+    height:12px;
+    border-radius:1px;
+    border: 1px solid #005C5C;
+    margin-left:10px;
+}
+#textResults {
+    margin-bottom:20px;
+    font-family:sans-serif;
+    padding:10px;
+    border:1px solid #555;
+    border-radius:10px;
+}
+#flyout {
+    position: absolute;
+    display: inline-block;
+    top: 2.1em;
+    background: white;
+    left: 74px;
+}
