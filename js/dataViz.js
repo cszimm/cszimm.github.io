@@ -1,7 +1,7 @@
 $.getJSON("http://data.ny.gov/resource/s22a-k4ev.json", function (data) {
     console.log(data);
     $(data).each(function (i, d) {
-        $("#textResults").append(d.county + "<div class = 'crappyBar' style = 'width:" + d.count_state + "px;'></div><br/>");
+        $("#textResults").append("<div class = 'crappyBar' style = 'width:" + d.count_state + "px;'>" + d.county + "</div><br/>");
     });
     
     $(".crappyBar").hover(function () {
